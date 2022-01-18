@@ -1,0 +1,12 @@
+cmd.exe /C if exist ".\Objects\*.out" (del/q .\Objects\*.out)  
+cmd.exe /C if exist ".\Objects\*.hex" (del/q .\Objects\*.hex)
+
+cmd.exe /C copy/Y .\Objects\*.out .\
+cmd.exe /C copy/Y .\Objects\*.hex .\
+
+
+cmd.exe /C del *.out /s/q
+
+
+cmd.exe /C copy/Y .\release\*.out D:\000_Inbox\FreeMasterPMP\OUT\
+cmd.exe /C move/Y .\release\*.hex  ..\..\..\
