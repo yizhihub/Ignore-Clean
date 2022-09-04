@@ -42,4 +42,7 @@ del /s/q .\*.axf
 del /s/q .\*.scr
 del /s/q .\*.uvguix.*
 #del /s/q .\*.uvoptx.*   this file contain Keil Download and Debug Configration info.   
+del /s/q .\*.obj
+#add .SBR for KeilC51 for Fortior51 2022Äê8ÔÂ16ÈÕ
+del /s/q .\*.SBR
 

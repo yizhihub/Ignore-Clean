@@ -81,4 +81,8 @@ settings
 *.dep
 #*.ewp  this IAR config file contain Options->C/C++ compiler->Preprocessor path info. and workspace files info.
 #*.ewt  this IAR config file contain workspace dir tree info.
+*.obj 
+*.SBR
+# add .obj .SBR for Keil C51 for Fortior
+
 
