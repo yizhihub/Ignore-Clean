@@ -83,6 +83,7 @@ settings
 #*.ewt  this IAR config file contain workspace dir tree info.
 *.obj 
 *.SBR
+*/output
 # add .obj .SBR for Keil C51 for Fortior
 
 
